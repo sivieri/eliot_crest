@@ -20,7 +20,7 @@
 %% @copyright 2010,2011 Alessandro Sivieri
 
 -module(original).
--include_lib("xmerl.hrl").
+-include_lib("xmerl/include/xmerl.hrl").
 -export([function/0, manager/1, urlsel/1, rss_feed/1]).
 -record(widget, {id, url, title = "", x = 0, y = 0, width = 0, height = 0, color = "", host = "", linkto = ""}).
 
